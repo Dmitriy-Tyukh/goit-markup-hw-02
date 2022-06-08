@@ -28,19 +28,20 @@ body {
 /* link decoration */
 a {
     text-decoration: none;
+    font-style: normal
 }
 li {
     list-style: none;
 }
 /* title color*/
-h2, h3 {
+h1, h2, h3 {
     color: var(--title-text-color);
 }
 
 /*          page studio          */
 /* logo */
 .logo, .studio {
-    text-decoration: none;
+    /* text-decoration: none; */
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
@@ -55,15 +56,13 @@ h2, h3 {
 /* navigation */
 .site-nav .link {
     font-weight: 500;
-    text-decoration: none;
     color:var(--title-text-color);
 }
-.link:hover, 
-.link:focus {
+.site-nav .link.current {
     color: var(--аccent-color);
 }
+
 .auth-nav .link {
-    text-decoration: none;
     font-weight: 500;
     color: var(--primary-text-color);
 }
@@ -139,9 +138,6 @@ h2, h3 {
 }
 .footer-section .studio {
     color: #FFFFFF;
-}
-.address-list {
-    font-style: normal;
 }
 .address-list .text {
     color: #FFFFFF;
