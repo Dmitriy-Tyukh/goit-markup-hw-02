@@ -136,10 +136,8 @@ h1, h2, h3 {
 .footer-section {
     background:var(--footer-backgraund-color);
 }
-.footer-section .studio {
-    color: #FFFFFF;
-}
-.address-list .text {
+.footer-section .studio,
+ .address-list .text {
     color: #FFFFFF;
 }
 .address-list .link {
