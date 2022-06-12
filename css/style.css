@@ -19,7 +19,7 @@
 body {
   font-family: Roboto, sans-serif;
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   background: var(--background-color);
   color: var(--primary-text-color);
@@ -45,7 +45,7 @@ h3 {
   margin: -1px;
   border: 0;
   padding: 0;
-  
+
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -55,10 +55,10 @@ h3 {
 /* logo */
 .logo,
 .studio {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.2;
+  line-height: 1.17;
   color: var(--аccent-color);
 }
 .studio {
@@ -89,8 +89,10 @@ h3 {
 .hero-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.4;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
   text-align: Center;
+  text-transform: uppercase;
   color: #ffffff;
 }
 .hero-button {
@@ -98,7 +100,9 @@ h3 {
   cursor: pointer;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.9;
+  line-height: 1.88;
+
+  letter-spacing: 0.06em;
   background: var(--аccent-color);
   color: #ffffff;
 }
@@ -106,13 +110,12 @@ h3 {
 /* advantages-section */
 .section-title {
   font-size: 36px;
-  line-height: 1.2;
+  line-height: 1.16;
   text-align: center;
 }
 .list-title {
   font-size: 14px;
-  font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.14;
 }
 
 /* work section */
@@ -124,11 +127,11 @@ h3 {
 .team-list .list-title {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.18;
 }
 .profession {
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.18;
 }
 
 /* footer */
@@ -148,32 +151,37 @@ h3 {
 }
 
 /*       page portfolio        */
-.filter-title {
-  font-family: serif;
+.filter-button {
+  font-family: inherit;
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 1.62;
+ 
+  padding: 6px 22px;
+  border-radius: 4px;
+  border: none;
+  text-transform: none;
   background: rgba(245, 244, 250, 1);
   color: var(--title-text-color);
 }
 .active {
-background-color:var(--аccent-color);
-color: #ffffff;
+  background-color: var(--аccent-color);
+  color: #ffffff;
 }
-.filter-title:hover,
-.filter-title:focus {
+.filter-button:hover,
+.filter-button:focus {
   background: var(--аccent-color);
   color: #ffffff;
 }
 .portfolio-title {
   font-size: 18px;
-  line-height: 2;
+  line-height: 2.00;
   letter-spacing: 0.06em;
   color: var(--title-text-color);
 }
 .desc {
   font-size: 16px;
-  line-height: 1.9;
+  line-height: 1.88;
   color: var(--primary-text-color);
 }
